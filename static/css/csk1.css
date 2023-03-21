@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+
+
+#go{
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+    position: relative;
+    right: 200px;
+    bottom: 70px;
+    border: 3px solid ;
+    color: yellow;
+    transform: skew(5deg);
+   
+}
+#h{
+    position: relative;
+    top: 20px;
+    color: black;
+    transform: skew(2 deg);
+    background: linear-gradient(45deg,orange,white,green);
+}
+#co{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 40px;
+    border: 3px inset ;
+    color: aqua;
+}
+#a{
+    color: aliceblue;
+    position: relative;
+    left: 30px;
+}
+#ga{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 200px;
+    bottom: 180px;
+    border: 3px ridge ;
+    color: aqua;
+}
+#b{
+    color: aliceblue;
+    position: relative;
+    left: 190px;
+    bottom: 180px;
+}
+#ra{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 360px;
+    bottom: 360px;
+    border: 3px double ;
+    color: aqua;
+}
+#c{
+    color: white;
+    position: relative;
+    left: 360px;
+    bottom: 360px;
+}
+#ben{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 520px;
+    bottom: 540px;
+    border: 3px double aquamarine;
+}
+#d{
+    color: white;
+    position: relative;
+    left: 515px;
+    bottom: 540px;
+}
+#dh{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 690px;
+    bottom: 720px;
+    border: 3px dashed yellow ;
+}
+#e{
+    color: white;
+    position: relative;
+    left: 690px;
+    bottom: 720px;
+}
+#ali{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 860px;
+    bottom: 900px;
+    border: 3px dotted red;
+}
+#f{
+    color: white;
+    position: relative;
+    left: 850px;
+    bottom: 900px;
+}
+#ja{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 40px;
+    bottom: 870px;
+    border: 3px groove chartreuse;
+}
+#g{
+    color: white;
+    position: relative;
+    left: 40px;
+    bottom: 870px;
+}
+#sh{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 200px;
+    bottom: 1050px;
+    border: 3px groove chartreuse;
+}
+#i{
+    color: white;
+    position: relative;
+    left: 215px;
+    bottom: 1030px;
+}
+#de{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 360px;
+    bottom: 1190px;
+    border: 3px groove chartreuse;
+}
+#j{
+    color: white;
+    position: relative;
+    left: 370px;
+    bottom: 1180px;
+}
+#tu{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 530px;
+    bottom: 1340px;
+    border: 3px groove chartreuse;
+}
+#k{
+    color: white;
+    position: relative;
+    left: 570px;
+    bottom: 1330px;
+}
+#ma{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 700px;
+    bottom: 1490px;
+    border: 3px groove chartreuse;
+}
+#l{
+    color: white;
+    position: relative;
+    left: 740px;
+    bottom: 1480px;
+}
+button{
+    position: relative;
+    bottom: 1990px;
+    left: 10px;
+}

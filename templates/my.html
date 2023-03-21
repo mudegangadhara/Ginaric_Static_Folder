@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/my.css' %}">
+</head>
+<body>
+    <img src="{% static 'images/balu.jpg' %}" alt="" id="balu">
+    <h1><span id="s1">WELCOME</span>  TO  MY  WORLD  </h1>
+    <img src="{% static 'images/ipllogo.webp' %}" alt="" id="ipl">
+    <a href="{% url 'ipl' %}">navigate to ipl</a>
+    <img src="{% static 'images/csklogo.jpeg' %}" alt="" id="csk">
+    <a href="{% url 'csk' %}">navigate to csk</a>
+    <img src="{% static 'images/milogo.jpg' %}" alt="" id="mi">
+    <a href="{% url 'mi' %}">navigate to mi</a>
+    
+</body>
+</html>

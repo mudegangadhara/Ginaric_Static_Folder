@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/ipl.css' %}">
+</head>
+<body id="ipl">
+    <h1>Indian Premier League</h1>
+    <img src="https://gumlet.assettype.com/freepressjournal/2020-03/93c67532-70f4-4ddb-aee3-ef2505525373/IPL_trophy.jpg?rect=0%2C0%2C2000%2C1125" alt="" id="ba">
+    <img src="{% static 'images/csklogo.jpeg' %}" alt="" id="csk">
+    <img src="{% static 'images/rcb.jpeg' %}" alt="" id="rcb">
+    <img src="{% static 'images/milogo.jpg' %}" alt="" id="mi">
+    <img src="{% static 'images/dclogo.webp' %}" alt="" id="dc">
+    <img src="{% static 'images/kkr.jpeg' %}" alt="" id="kkr">
+    <img src="{% static 'images/rrlogo.jpg' %}" alt="" id="rr">
+    <img src="{% static 'images/sre.jpg' %}" alt="" id="ss">
+    <img src="{% static 'images/pp.jpeg' %}" alt="" id="pp">
+    <button id="b1">
+        <a href="{% url 'my' %}"> my</a>
+    </button>
+    <button id="b2"><a href="{% url 'mi' %}"> mi</a></button>
+    <button id="b3"><a href="{% url 'csk' %}"> csk</a></button>
+    <p>The Indian Cricket League (ICL) was founded in 2007, with funding provided by Zee Entertainment Enterprises.[10] The ICL was not recognised by the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC) and the BCCI were not pleased with its committee members joining the ICL executive board.</p>
+    <p>The IPL has been designed to entice an entire new generation of sports fans into the grounds throughout the country. The dynamic Twenty20 format has been designed to attract a young fan base,</p>
+</body>
+</html>

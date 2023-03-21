@@ -1,0 +1,91 @@
+button{
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+}
+#ba{
+    position: relative;
+    left: 360px;
+    top: 0px;
+    width: 340px;
+    height: fit-content;
+}
+h1{
+    position: relative;
+    bottom: 10px;
+}
+#ipl{
+    background: linear-gradient(35deg,skyblue,white);
+   
+}
+h1{
+    text-align: center;
+}
+#rcb{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    border-radius: 75px;
+}
+#mi{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    right: 400px;
+
+    bottom: 110px;
+    border-radius: 75%;
+}
+#dc{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 10px;
+    right: 500px;
+    border-radius: 75%;
+}
+
+#csk{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 200px;
+    bottom: 120px;
+    left: 370px;
+    border-radius: 75%;
+}
+#kkr{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 200px;
+    bottom: 120px;
+    left: 75px;
+    border-radius: 75%;
+}
+#rr{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 20px;
+    border-radius: 75%;
+}
+#ss{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    bottom: 220px;
+    left: 30px; 
+    border-radius: 75%;
+}
+#pp{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+    border-radius: 75%;
+}

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mi.css' %}">
+</head>
+<body>
+    <center>
+        <h1>Mumbai Indians</h1>
+        <img src="{% static 'images/milogo2.jpg' %}" alt="" id="logo">
+        <img src="{% static 'images/rohit.jpg' %}" alt="" id="ro">
+        <figcaption id="a">Rohit Sharma</figcaption>
+        <img src="{% static 'images/ishan.jpg' %}" alt="" id="is">
+        <figcaption id="b">Ishan Kishan</figcaption>
+        <img src="{% static 'images/surya1.jpeg' %}" alt="" id="su">
+        <figure id="c">SuryaKumar Yadav </figure>
+        <img src="{% static 'images/ld.webp' %}" alt="" id="br">
+        <figure id="d">Dewald Brevis </figure>
+        <img src="{% static 'images/tilak.jpg' %}" alt="" id="ti">
+        <figure id="e">Tilak Varma </figure>
+        <img src="{% static 'images/green.jpeg' %}" alt="" id="gr">
+        <figure id="f">Cameron Green </figure>
+        <img src="{% static 'images/stub.webp' %}" alt="" id="st">
+        <figure id="g">Tristan Stubbs </figure>
+        <img src="{% static 'images/rff.webp' %}" alt="" id="rff">
+        <figure id="h">Jason Behrendorff </figure>
+        <img src="{% static 'images/jofra.jpg' %}" alt="" id="jo">
+        <figure id="i"> Jofra Archer</figure>
+        <img src="{% static 'images/jas.webp' %}" alt="" id="js">
+        <figure id="j"> Jasprit Bumbrah</figure>
+        <img src="{% static 'images/cha.jpg' %}" alt="" id="cha">
+        <figure id="k">Piyush Chawla</figure>
+    </center>
+   <button>
+    <a href="{% url 'my' %}">my</a>
+   </button>
+   <button><a href="{% url 'ipl' %}">ipl</a></button>
+   <button><a href="{% url 'csk' %}">csk</a></button>
+
+</body>
+</html>

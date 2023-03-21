@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/csk1.css' %}">
+</head>
+<body>
+    <center>
+        <h1 id="h">Cheenai Super Kings</h1>
+        <img src="{% static 'images/csklogo1.webp' %}" alt="" id="go">
+    </center>
+    <nav>
+        <img src="{% static 'images/conway.webp' %}" alt="" id="co">
+        <figure id="a">Conway</figure>
+        <img src="{% static 'images/gaikwad.jpg' %}" alt="" id="ga">
+        <figure id="b">Gaikwad</figure>
+        <img src="{% static 'images/rayadu.jpeg' %}" alt="" id="ra">
+        <figure id="c">Rayadu</figure>
+        <img src="{% static 'images/ben.jpeg' %}" alt="" id="ben">
+        <figure id="d">Ben Stroks</figure>
+        <img src="{% static 'images/dhoni.webp' %}" alt="" id="dh">
+        <figure id="e">Ms Dhoni</figure>
+        <img src="{% static 'images/ali.jpg' %}" alt="" id="ali">
+        <figure id="f">Meeon Ali</figure>
+        <img src="{% static 'images/jadeja.webp' %}" alt="" id="ja">
+        <figure id="g">Jadeja</figure>
+        <img src="{% static 'images/shivam.webp' %}" alt="" id="sh">
+     <figcaption id="i">Shivam Dubey</figcaption>
+     <img src="{% static 'images/deepak.jpg' %}" alt="" id="de">
+     <figcaption id="j">deepak Charhar</figcaption>
+     <img src="{% static 'images/tushar.jpg' %}" alt="" id="tu">
+     <figcaption id="k">Tushar</figcaption>
+     <img src="{% static 'images/maheesh.jpg' %}" alt="" id="ma">
+     <figcaption id="l">Maheesh</figcaption>
+     <button>
+        <a href="{% url 'my' %}">my</a>
+    </button>
+     <button><a href="{% url 'ipl' %}">ipl</a></button>
+     <button><a href="{% url 'mi' %}">mi</a></button>
+    </nav>
+</body>
+</html>

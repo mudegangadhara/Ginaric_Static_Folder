@@ -1,0 +1,222 @@
+
+#logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 120px;
+    bottom: 95px;
+    border-radius: 75px;
+    border: 2px solid ;
+    border-color: blue;
+    background-color: blue;
+}
+h1{
+    background: linear-gradient(45deg, red,skyblue,yellow,blue);
+    position: relative;
+    top: 10px;
+}
+#ro{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 500px;
+    top: 40px;
+    border-radius: 75%;
+    background-color: black;
+}
+#a{
+    position: relative;
+    right: 450px;
+    top: 50px;
+    width: fit-content;
+}
+#a:hover{
+    background: linear-gradient(45deg,navy,red);
+    color: azure;
+}
+#is{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 100px;
+    right: 300px;
+    border-radius: 75%;
+}
+#b{
+    position: relative;
+    right: 300px;
+    bottom: 95px;
+    width: fit-content;
+}
+#b:hover{
+    background: linear-gradient(45deg,pink,yellow);
+}
+#su{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 240px;
+    right: 150px;
+    border-radius: 75%;
+}
+#c{
+    position: relative;
+    right: 150px;
+    bottom: 255px;
+    width: fit-content;
+}
+#c:hover{
+    background: linear-gradient(45deg,blue,yellow,red);
+    color: azure;
+}
+#br{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 420px;
+    border-radius: 75%;
+}
+#d{
+    position: relative;
+    bottom: 430px;
+    width: fit-content;
+}
+#d:hover{
+    background: linear-gradient(45deg,blue,yellow,red);
+    color: black;
+}
+#ti{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 140px;
+    bottom: 590px;
+    border-radius: 75%;
+}
+#e{
+    position: relative;
+    bottom: 605px;
+    left: 140px;
+    width: fit-content;
+}
+#e:hover{
+    background: linear-gradient(45deg,chartreuse,pink);
+    color: black;
+}
+#gr{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 300px;
+    bottom: 770px;
+    border-radius: 75%;
+}
+#f{
+    position: relative;
+    bottom: 780px;
+    left: 300px;
+    width: fit-content;
+}
+#f:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+}
+#st{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 450px;
+    bottom: 950px;
+    border-radius: 75%;
+}
+#g{
+    position: relative;
+    bottom: 955px;
+    left: 450px;
+    width: fit-content;
+}
+#g:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+}
+#rff{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 450px;
+    bottom: 950px;
+    border-radius: 75%;
+}
+#h{
+    position: relative;
+    right: 450px;
+    bottom: 955px;
+    width: fit-content;
+}
+#h:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+}
+#jo{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 300px;
+    bottom: 1125px;
+    border-radius: 75%;
+}
+#i{
+    position: relative;
+    right: 300px;
+    bottom: 1130px;
+    width: fit-content;
+}
+#i:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+}
+#js{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 150px;
+    bottom: 1300px;
+    border-radius: 75%;
+}
+#j{
+    position: relative;
+    right: 150px;
+    bottom: 1305px;
+    width: fit-content;
+}
+#j:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+}
+#cha{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 1480px;
+    border-radius: 75%;
+}
+#k{
+    position: relative;
+    bottom: 1480px;
+    width: fit-content;
+}
+#k:hover{
+    background: linear-gradient(45deg,orange,red);
+    color: black;
+    border-radius: 20%;
+}
+button{
+    position: relative;
+    bottom: 1890px;
+    left: 100px;
+}
+
+
+
+
+

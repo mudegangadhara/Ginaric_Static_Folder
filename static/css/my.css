@@ -1,0 +1,53 @@
+
+
+h1{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 70px;
+}
+#balu{
+    width: 60px;
+    height:60px;
+    border-radius: 75px;
+    border: 3px groove yellow;
+    position: relative;
+    left: 1000px;
+    top: 10px;
+    
+}
+#ipl{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 3px groove chartreuse;
+    left: 200px;
+    top: 35px;
+    border-radius: 75px;
+
+}
+a{
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+#csk{
+    width: 150px;
+    height: 150px;
+    border: 3px groove chartreuse;
+    position: relative;
+    left: 200px;
+    top: 35px;
+    border-radius: 75px;
+}
+#mi{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        border: 3px groove chartreuse;
+        left: 200px;
+        top: 35px;
+        border-radius: 75px;
+    
+    
+}
